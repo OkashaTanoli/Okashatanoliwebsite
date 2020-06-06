@@ -1,0 +1,497 @@
+/* This is CSS File */
+/* This is CSS File */
+/* This is CSS File */
+
+@font-face{
+    src:url(fonts/Abel-Regular.ttf);
+    font-family:okasha;
+}
+
+@font-face{
+    src: url(fonts/Philosopher-Italic.ttf);
+    font-family: karachi;
+}
+@font-face{
+    src: url(fonts/Oxygen-Regular.ttf);
+    font-family: signup;
+}
+ 
+html{
+    scroll-behavior: smooth;
+}
+
+
+.fixed i{
+    position: fixed;
+    bottom: 10px;
+    right: 0px;
+    font-size: 60px;
+    z-index: 1;
+    color: rgb(185, 183, 29);
+}
+
+
+.navbar{
+    background-color: rgb(23, 53, 53) !important;
+}
+
+#Active{
+    background-color: rgb(14, 37, 37) !important;    
+
+}
+.Active{
+    color: white !important;
+}
+
+.fa-shopping-cart,.fa-user{
+    font-size: 30px !important;
+    color: rgb(83, 117, 117) !important;
+
+}
+.dropdown-item:hover{
+     background-color:rgb(23, 53, 53)  ;
+     color: white;
+}
+.dropdown-menu{
+    margin-top: 14px;
+}
+
+.fa-user{
+    margin-right: 10px;
+}
+.fa-shopping-cart{
+    margin-right: 20px;
+}
+.fa-shopping-cart:hover,.fa-user:hover{
+    color: white !important;
+}
+.nav-link{
+    font-weight: bold !important;
+    color: rgb(83, 117, 117) !important;
+}
+.nav-link:hover{
+    color: white !important;
+}
+.nav-item{
+    margin-right: 29px;
+}
+.nav-item:hover{
+    background-color: rgb(14, 37, 37);
+}
+
+.collapse{
+    margin-left: 20%;
+
+}
+
+.navbar-toggler:hover{
+background-color: wheat;
+
+}
+
+.For-Gradient{
+    background-image: url("images/background.jpg");    
+    margin-top: 20px;
+    text-align: center;
+}
+
+.For-Gradient h1{
+    font-size: 90px;
+    color: rgb(232, 233, 233);
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Main-Div{
+    background-color: rgba(131, 175, 175, 0.2);
+    padding-bottom: 100px;
+}
+
+.card-img-top{
+    height: 150px;
+    padding: 0px;
+    border-radius: 0px !important;
+
+}
+
+.card{
+   width: 170px !important;
+   background-color:rgba(23, 53, 53,0.4)  ;
+   box-shadow:  8px 8px 100px rgb(66, 66, 66);
+   margin-bottom:20px ;
+   margin-top:20px ;
+   border-radius: 0px !important;
+
+}
+
+.Men-Collection{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.Men-Collection-Heading div.top{
+    color: rgb(23, 53, 53) ;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 2px 1px 3px rgb(94, 92, 92);
+}
+ 
+.Men-Collection-Heading div.bottom{
+    color: rgb(23, 53, 53) ;
+    font-size: 25px;
+    text-align: center;
+}
+
+.btn-primary{
+   width: 100%;
+    background-color:rgb(23, 53, 53) ;
+    border: none;
+     
+
+}
+
+.card-text{
+    /* font-weight: 600; */
+    font-family: signup;
+}
+
+
+.card-body{
+   
+    text-align: center;
+}
+
+.Our-Div{
+   display:flex ;
+   justify-content: center;
+
+}
+.Our-Div-For-Margin{
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.Our-Div-For-Margin:hover{
+    background-color: rgb(50, 73, 73);
+}
+
+.Main-Follow-Us{
+    background-color:rgba(83, 117, 117,0.5)   ;
+    padding: 10px;
+}
+
+.Follow-Us{
+    text-align: center;
+}
+.Follow-Us h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.Footer-Div{
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-around;
+    background-color: rgb(43, 41, 41);
+    color:whitesmoke;
+    padding: 70px;
+}
+
+.Footer-Div ul{
+    list-style-type: none;
+}
+
+.Footer-Div li{
+    padding-bottom: 20px;
+}
+
+.Footer-Div-1 li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.Footer-Div-1{
+    width: 30%;
+}
+
+.Spacing{
+    margin-left: -25px;
+}
+
+.Spacing-Between{
+    margin-left: 10px;
+}
+
+.No-Margin{
+    padding-bottom: -0px !important;
+}
+
+
+
+/* page-Men-Collection */
+/* page-Men-Collection */
+/* page-Men-Collection */
+/* page-Men-Collection */
+/* page-Men-Collection */
+
+
+.Cotton-Heading h1{
+    color: rgb(23, 53, 53) ;
+    font-size: 55px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    text-shadow: 2px 1px 3px rgb(94, 92, 92);
+
+}
+.Silk-Heading h1{
+    color: rgb(23, 53, 53) ;
+    font-size: 55px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 1px 3px rgb(94, 92, 92);
+
+}
+
+
+.Page-Men-Collection-Column{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.Page-Men-Collection{
+    background-color: rgba(131, 175, 175, 0.2);
+    margin-top: 20px;
+    padding-bottom: 100px;
+
+}
+
+/* Page Contact Us */
+/* Page Contact Us */
+/* Page Contact Us */
+/* Page Contact Us */
+/* Page Contact Us */
+
+.Page-Contact-Heading {
+   text-align: left;
+   color: rgb(83, 117, 117);
+   margin-top: 70px;
+
+}
+  
+.Page-Contact-map-div{
+    margin-top: 30px;
+}
+
+.Page-Contact{
+    text-align: center;
+    width: 80%;
+    
+}
+
+
+.Page-Contact-Number-icon,.Page-Contact-Margin-Bottom{
+    text-align: left;
+    margin-top: 30px;
+}
+
+.Page-Contact-Margin-Bottom{
+    margin-bottom: 100px;
+}
+
+.Page-Contact-Margin,.Page-Contact-No-Margin{
+    margin-left: 10px;
+    color: teal;
+    font-weight: 400;
+    font-size: 17px;
+}
+.Page-Contact-No-Margin{
+    margin: 0px;
+}
+.fa-phone,.fa-whatsapp,.fa-envelope{
+    color: teal;
+    font-size: 20px;
+}
+
+.Page-Contact-Perfect{
+    font-family:okasha;
+    color: rgb(83, 117, 117);
+    margin-bottom: -5px;
+}
+
+.Hover:hover{
+     text-decoration: none;
+}
+
+
+/* About us page */
+/* About us page */
+/* About us page */
+/* About us page */
+/* About us page */
+
+
+
+
+.Page-About{
+   width: 80%;  
+}
+
+.About-us-paragraph{
+    margin-top: 50px;
+    text-align: left;
+    font-family: karachi;
+    margin-bottom: 100px;
+}
+
+.Text-Align-First{
+    text-align: justify;
+}
+
+.Text-Align-Second{
+    font-weight: 700;
+}
+
+.Text-Align-Fourth{
+    font-weight: 700;
+}
+
+
+
+
+/* Account Information */
+/* Account Information */
+/* Account Information */
+/* Account Information */
+/* Account Information */
+/* Account Information */
+/* Account Information */
+.body{
+    background-image: url("images/signup\ background.jpg");
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
+
+.signup{
+    width: 350px;    
+    text-align: center;
+    margin: 75px auto;
+    padding: 20px;
+    background-color: rgba(243, 235, 235,0.9);
+}
+  
+.signup img{
+    margin-top: -60px;
+}
+ 
+.signup h1{
+    color: teal;
+    font-family: signup;
+}
+
+.signup a{
+    color: teal;
+}
+
+.input{
+    margin-top: 10px;
+    width: 90%;
+    height: 40px;
+    border-left: none !important;
+    border-right: none!important;
+    border-top: none!important;
+    border-bottom: 1px solid gray;
+    background-color: transparent;
+    font-size: 18px;
+    color: rgb(40, 109, 109);
+    font-family: signup;
+}
+
+.input:focus{
+    outline: none;
+}
+
+#Services{
+    margin-top: 20px;
+}
+
+.Signup-button{
+    width: 80%;
+    border: none;
+    background-image: linear-gradient(rgb(15, 15, 97),rgb(76, 76, 187));
+    padding: 5px;
+    margin: 10px;
+    color: whitesmoke;
+    font-weight: 500;
+}
+.Signup-button:focus{
+    outline:none ;
+}
+
+.Signup-button:hover{
+    background-image: linear-gradient(rgb(5, 5, 46),rgb(33, 33, 119));
+
+}
+
+
+#Signup-Active{
+   color: white !important;
+}
+
+
+
+
+#signin{
+    margin: 109px auto;
+
+}
+
+
+
+
+
+@media (max-width:990px){
+
+    .collapse{
+        margin-left: 10px;
+    
+    }
+}
+
+@media (max-width:725px){
+    
+   .Footer-Div-1{
+      width: 100%;      
+    }
+
+
+   .Footer-Div{
+       padding: 70px 20px 70px 20px;
+   }
+
+   .For-Gradient h1{
+    font-size: 70px;
+    
+    }
+
+   .Page-Contact{
+    text-align: center;
+    width: 90%;
+    }
+  
+    iframe{
+        height: 200px;
+    }
+
+    .signup{
+        width: 300px;    
+    }
+      
+}
+
+
